@@ -75,5 +75,5 @@ class dingpush():
 
 
 if __name__ == '__main__':
-    dingpush = dingpush("测试标题","测试内容","18688888888","","")
+    dingpush = dingpush("快去打卡！","打卡成功！","","e4b0a8544290b48004c6dd757de01cf68e6fa9e41e65f16e53cd430f3aa93478","")
     dingpush.SelectAndPush()
