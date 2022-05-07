@@ -74,6 +74,6 @@ class dingpush():
             self.NormalPush()
 
 
-if __name__ == '__main__':
-    dingpush = dingpush("快去打卡！","打卡成功！","","e4b0a8544290b48004c6dd757de01cf68e6fa9e41e65f16e53cd430f3aa93478","")
-    dingpush.SelectAndPush()
+# if __name__ == '__main__':
+#     dingpush = dingpush("快去打卡！","打卡成功！","","e4b0a8544290b48004c6dd757de01cf68e6fa9e41e65f16e53cd430f3aa93478","")
+#     dingpush.SelectAndPush()
