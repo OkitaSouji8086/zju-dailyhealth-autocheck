@@ -196,7 +196,7 @@ class HealthCheckInHelper(ZJULogin):
                                 "message": "Get geolocation success.Convert Success.Get address success.", "location_type": "ip",
                                 "accuracy": "null", "isConverted": "true", "addressComponent": address_component,
                                 "formattedAddress": formatted_address, "roads": [], "crosses": [], "pois": []}
-            #print('打卡地点：', formatted_address)
+            print('打卡地点：', formatted_address)
             #拿到校验值
             verify_data = re.findall(r'"([a-z0-9]*?)": "([0-9]*?)","([a-z0-9]*?)":"([a-z0-9]*?)"',html)[0]
             verify_code = {
